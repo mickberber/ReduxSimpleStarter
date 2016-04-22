@@ -6,6 +6,7 @@ import APIKey from './../APIKEY';
 
 import SearchBar from './components/searchBar';
 import VideoList from './components/videoList';
+import VideoDetail from './components/videoDetail';
 
 
 class App extends Component {
@@ -23,6 +24,7 @@ class App extends Component {
 	  return (
 	  	  <div>
 	  	    <SearchBar />
+	  	    <VideoDetail video={this.state.videos[0]} />
 	  	    <VideoList videos={this.state.videos} />
 	  	  </div>
 	  	);
