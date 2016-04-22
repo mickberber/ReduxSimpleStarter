@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import SearchBar from './components/searchBar';
+import APIKey from './../APIKEY';
 
 //create new component should produce some html
 const App = () => {
